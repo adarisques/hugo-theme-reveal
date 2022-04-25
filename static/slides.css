@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Work+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 
 :root {
-    --r-background-color: ivory;
+    --r-background-color: white;
     --r-block-margin: 5px;
     --r-code-font: IBM Plex Mono,Cascadia Code PL,Helvetica,sans-serif;
-    --r-main-font: Montserrat,Source Sans Pro,Helvetica,sans-serif;
+    --r-main-font: Work Sans,Source Sans Pro,Helvetica,sans-serif;
     --r-main-font-size: 12pt;
     --r-main-color: black;
     --r-heading-font: Lexend Deca,Source Sans Pro,Helvetica,sans-serif;
@@ -12,12 +12,12 @@
     --r-heading2-size: 1.85em;
     --r-heading3-size: 1.2em;
     --r-heading-text-transform: none;
-    --r-heading-color: #ee4466;
+    --r-heading-color: #5d2693;
     --r-heading-margin: var(--r-block-margin) 0;
-    --r-dimmed-color: #996666;
-    --r-link-color: var(--r-heading-color);
-    --r-link-color-dark: #77335e;
-    --r-link-color-hover: #f2738c;
+    --r-dimmed-color: #C69C72;
+    --r-link-color: #794ca6;
+    --r-link-color-dark: #400080;
+    --r-link-color-hover: #66418C;
     --r-credits-font: var(--r-heading-font);
     --r-credits-font-size: calc(0.7 * var(--r-main-font-size));
     --vh: 1%;
@@ -71,7 +71,7 @@ kbd {
 
 .slide-title {
     display: none;
-    background: linear-gradient(to right, #002255, #0044aa);
+    background: linear-gradient(to right, #27004e, #400080);
     color: white;
     width: 100vw;
     z-index: 9;

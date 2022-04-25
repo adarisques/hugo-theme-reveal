@@ -7,7 +7,7 @@
 			<footer class="slide-footer" id="reveal-footer"></footer>
 			<div class="slides">
 				{{- $section := . }}
-                <section class="main-title" data-state="center-title"{{ if .Param "bg-image" }} data-background-image="{{ path.Join "bg" (.Param "bg-image") | relURL }}" data-background-opacity=".2" data-background-color="#002255" data-background-credits="{{ .Param "bg-credits" }}" data-background-author="{{ .Param "bg-author" }}"{{ if .Param "bg-authornick" }} data-background-author-nickname="{{ .Param "bg-authornick" }}"{{ end }}{{ if .Param "bg-position" }} data-background-position="{{ .Param "bg-position" }}"{{ end }}{{ if .Param "bg-size" }} data-background-size="{{ .Param "bg-size" }}"{{ end }}{{ end }}>
+                <section class="main-title" data-state="center-title"{{ if .Param "bg-image" }} data-background-image="{{ path.Join "bg" (.Param "bg-image") | relURL }}" data-background-opacity=".2" data-background-color="#330067" data-background-credits="{{ .Param "bg-credits" }}" data-background-author="{{ .Param "bg-author" }}"{{ if .Param "bg-authornick" }} data-background-author-nickname="{{ .Param "bg-authornick" }}"{{ end }}{{ if .Param "bg-position" }} data-background-position="{{ .Param "bg-position" }}"{{ end }}{{ if .Param "bg-size" }} data-background-size="{{ .Param "bg-size" }}"{{ end }}{{ end }}>
                     <h1><a href="{{ .Site.Home.RelPermalink }}#/2">{{ .Site.Title }}</a></h1>
                     <h2>{{ .Title }}</h2>
 					<aside class="notes">
@@ -36,9 +36,9 @@
 				<section class="container">
 					<section data-state="center-title"
 						{{- if .Param "bg-image" }}
-							data-background-image="{{ path.Join "bg" (.Param "bg-image") | relURL }}" data-background-opacity=".2" data-background-color="#aa0000" data-background-credits="{{ .Param "bg-credits" }}" data-background-author="{{ .Param "bg-author" }}"{{ if .Param "bg-authornick" }} data-background-author-nickname="{{ .Param "bg-authornick" }}"{{ end }}{{ if .Param "bg-position" }} data-background-position="{{ .Param "bg-position" }}"{{ end }}{{ if .Param "bg-size" }} data-background-size="{{ .Param "bg-size" }}"{{ end }}
+							data-background-image="{{ path.Join "bg" (.Param "bg-image") | relURL }}" data-background-opacity=".2" data-background-color="#330067" data-background-credits="{{ .Param "bg-credits" }}" data-background-author="{{ .Param "bg-author" }}"{{ if .Param "bg-authornick" }} data-background-author-nickname="{{ .Param "bg-authornick" }}"{{ end }}{{ if .Param "bg-position" }} data-background-position="{{ .Param "bg-position" }}"{{ end }}{{ if .Param "bg-size" }} data-background-size="{{ .Param "bg-size" }}"{{ end }}
 						{{- else if $section.Param "bg-image" }}
-							data-background-image="{{ path.Join "bg" ($section.Param "bg-image") | relURL }}" data-background-opacity=".2" data-background-color="#aa0000" data-background-credits="{{ $section.Param "bg-credits" }}" data-background-author="{{ $section.Param "bg-author" }}"{{ if $section.Param "bg-authornick" }} data-background-author-nickname="{{ $section.Param "bg-authornick" }}"{{ end }}{{ if $section.Param "bg-position" }} data-background-position="{{ $section.Param "bg-position" }}"{{ end }}{{ if $section.Param "bg-size" }} data-background-size="{{ $section.Param "bg-size" }}"{{ end }}
+							data-background-image="{{ path.Join "bg" ($section.Param "bg-image") | relURL }}" data-background-opacity=".2" data-background-color="#330067" data-background-credits="{{ $section.Param "bg-credits" }}" data-background-author="{{ $section.Param "bg-author" }}"{{ if $section.Param "bg-authornick" }} data-background-author-nickname="{{ $section.Param "bg-authornick" }}"{{ end }}{{ if $section.Param "bg-position" }} data-background-position="{{ $section.Param "bg-position" }}"{{ end }}{{ if $section.Param "bg-size" }} data-background-size="{{ $section.Param "bg-size" }}"{{ end }}
 						{{ end }}
 					>
 						<h2>{{ .Title | markdownify }}</h2>
